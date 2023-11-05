@@ -1,0 +1,19 @@
+GET http://localhost:3000/routes
+
+
+### Post
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "name": "rota teste",
+    "source_id": "ChIJIaLaDZxov5QRoDShb482HCU11",
+    "description": "ChIJIaLaDZxov5QRoDShb482HCU"
+}
+
+### Get places
+
+GET http://localhost:3000/places?text=betim, mg
+
+### Get direcitons
+GET http://localhost:3000/directions?originId=ChIJF3eJlwJYx5QRLqimmerNFCA&destinationId=ChIJIaLaDZxov5QRoDShb482HCU
